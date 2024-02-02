@@ -1,0 +1,66 @@
+body{
+  background-color: firebrick;
+}
+
+.painel{
+  margin: auto;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+audio {
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-position: right center;
+}
+
+ul li img {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+}
+
+h1{
+  color: black;
+}
+
+
+h3{
+  color: white;
+}
+
+video {
+  width: 500px;
+  height: 700px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Estilos telas pequenas (celulares) */
+@media screen and (max-width: 800px) {
+  /* Seu CSS para dispositivos móveis aqui */
+}
+
+/* Estilos para telas médias (tablets) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Seu CSS para tablets aqui */
+}
+
+/* Estilos para telas grandes (computadores) */
+@media screen and (min-width: 992px) {
+  /* Seu CSS para desktops aqui */
+}
